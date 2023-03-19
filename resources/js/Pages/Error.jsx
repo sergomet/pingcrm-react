@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-// import { usePage } from '@inertiajs/inertia-react';
+// import { usePage } from '@inertiajs/react';
 
 export default ({ status }) => {
   // const { status } = usePage().props;

@@ -82,8 +82,15 @@ To run the Ping CRM tests, run:
 phpunit
 ```
 
+## Change log
+
+- update to Laravel 10
+- setup vite
+- update to jsx
+
 ## Credits
 
+- forked from orginal Lado Lomidze (@landish) and contributors
 - Original work by Jonathan Reinink (@reinink) and contributors
 - Port to Ruby on Rails by Georg Ledermann (@ledermann)
 - Port to React by Lado Lomidze (@landish)

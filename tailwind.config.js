@@ -1,6 +1,10 @@
 module.exports = {
-  purge: ['./resources/views/**/*.blade.php', './resources/js/**/*.js'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+    './storage/framework/views/*.php',
+    './resources/views/**/*.blade.php',
+    './resources/js/**/*.{js,jsx,ts,tsx}'
+  ],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -80,5 +84,6 @@ module.exports = {
   variants: {
     extend: {}
   },
-  plugins: []
+
+  plugins: [require('@tailwindcss/forms')]
 };
